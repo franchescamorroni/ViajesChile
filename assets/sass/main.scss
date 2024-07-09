@@ -1,0 +1,13 @@
+@import "../sass/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// base
+@import './base/tipography';
+@import './base/reset';
+
+// layout
+@import './layout/carousel';
+@import './layout/quienes-somos';
+@import './layout/destacados';
+@import './layout/testimonios';
+@import './layout/contacto';

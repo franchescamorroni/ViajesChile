@@ -1,0 +1,24 @@
+#testimonios {
+    color: white;
+
+    .card {
+        border: 0;
+
+        &-text {
+            color: #ffffff;
+        }
+    }
+
+}
+
+.contenedor__imagen {
+    width: 100px;
+    height: 80px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
